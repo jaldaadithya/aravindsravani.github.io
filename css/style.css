@@ -916,6 +916,9 @@ form label {
   #fh5co-counter .feature-center {
     margin-bottom: 50px;
   }
+  #fh5co-header .fh5co-cover{
+    background-position : -244px 12.25px !important
+  }
 }
 #fh5co-counter .icon {
   width: 70px;
@@ -1252,6 +1255,9 @@ form label {
 @media screen and (max-width: 992px) {
   #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
     width: 100%;
+  }
+  #fh5co-header .fh5co-cover{
+    background-position : -244px 57px !important;
   }
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
