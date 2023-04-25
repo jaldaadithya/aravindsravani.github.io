@@ -873,6 +873,9 @@ form label {
   .fh5co-cover .display-tc h2 {
     font-size: 16px;
   }
+  .fh5co-cover{
+    background-position : -244px 12.25px !important
+  }
 }
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
