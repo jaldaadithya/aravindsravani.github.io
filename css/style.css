@@ -887,11 +887,12 @@ form label {
     font-size: 16px;
   }
   .fh5co-cover{
-    background-position : -193px 0px !important;
+    background-position : -244px 0px !important;
     background-size:920px;
     background-color: deeppink;
   }
 }
+-160px 0px !important
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
