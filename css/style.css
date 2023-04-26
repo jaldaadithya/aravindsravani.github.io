@@ -315,11 +315,24 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and  (min-width:481px) {
   .fh5co-cover {
     height: 600px;
+    background-position: -160px 0px !important;
   }
 }
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .fh5co-cover {
+    height: 600px;
+    background-position: -18px 0px!important;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .fh5co-cover {
+    height: 600px;
+    background-position: -220px 0px!important;
+  }
+} */
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   height: 900px;
@@ -329,7 +342,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height: 1025px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -874,7 +887,8 @@ form label {
     font-size: 16px;
   }
   .fh5co-cover{
-    background-position : -244px 12.25px !important
+    background-position : -193px 0px !important;
+    background-size:920px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -917,7 +931,7 @@ form label {
     margin-bottom: 50px;
   }
   #fh5co-header .fh5co-cover{
-    background-position : -244px 12.25px !important
+    background-position : -47px 0px !important
   }
 }
 #fh5co-counter .icon {
